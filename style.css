@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+/* forma */
+
+.container {
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 40px auto;
+    width: 1250px;
+    padding: 100px 70px 100px 70px;
+}
+
+header img {
+    width: 250px;
+    display: block;
+    margin:  auto ;
+}
+
+header h1 {
+    text-align: center;
+    color: rgba(0, 220, 0, 1);
+    }
+
+.azioni {
+    background-color: rgb(0, 220, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+nav input {
+    color: black;
+}
+
+section {
+    margin-top: 30px;
+}
+
+.selezione h2 {
+    display: inline-block;
+    
+}
+
+/* livelli di batteria e colore */
+
+.barra-1 {
+    height: 30px;
+    background-color: rgb(221, 162, 36);
+    width: 330px;
+    border-radius: 5px;
+}
+
+.barra-2 {
+    height: 30px;
+    background-color: rgb(0, 193, 0);
+    width: 550px;
+    border-radius: 5px;
+}
+
+.barra-3 {
+    height: 30px;
+    background-color: rgb(177, 53, 53);
+    width: 100px;
+    border-radius: 5px;
+}
+
